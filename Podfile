@@ -11,4 +11,6 @@ target 'TranslateParty' do
     pod 'Moya'
     pod 'Moya/RxSwift'
     pod 'Spring', :git => 'https://github.com/MengTo/Spring.git', :branch => 'swift2'
+    pod 'TKSwarmAlert'
+    pod 'LinearProgressBar', :git => 'https://github.com/PhilippeBoisney/LinearProgressBar.git'
 end

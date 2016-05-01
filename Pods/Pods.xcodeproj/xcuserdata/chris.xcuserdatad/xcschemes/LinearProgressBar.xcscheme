@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '4979E84882D6146BDAB27DC8'
-               BlueprintName = 'RxCocoa'
+               BlueprintIdentifier = '3A0C9891FD74D15F84C82B4F'
+               BlueprintName = 'LinearProgressBar'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'RxCocoa.framework'>
+               BuildableName = 'LinearProgressBar.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

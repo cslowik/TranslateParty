@@ -85,6 +85,7 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-TranslateParty/Alamofire.framework"
+  install_framework "Pods-TranslateParty/LinearProgressBar.framework"
   install_framework "Pods-TranslateParty/Moya.framework"
   install_framework "Pods-TranslateParty/Result.framework"
   install_framework "Pods-TranslateParty/RxBlocking.framework"
@@ -92,9 +93,11 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-TranslateParty/RxSwift.framework"
   install_framework "Pods-TranslateParty/RxTests.framework"
   install_framework "Pods-TranslateParty/Spring.framework"
+  install_framework "Pods-TranslateParty/TKSwarmAlert.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-TranslateParty/Alamofire.framework"
+  install_framework "Pods-TranslateParty/LinearProgressBar.framework"
   install_framework "Pods-TranslateParty/Moya.framework"
   install_framework "Pods-TranslateParty/Result.framework"
   install_framework "Pods-TranslateParty/RxBlocking.framework"
@@ -102,4 +105,5 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-TranslateParty/RxSwift.framework"
   install_framework "Pods-TranslateParty/RxTests.framework"
   install_framework "Pods-TranslateParty/Spring.framework"
+  install_framework "Pods-TranslateParty/TKSwarmAlert.framework"
 fi

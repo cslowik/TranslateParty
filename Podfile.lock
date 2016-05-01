@@ -1,5 +1,6 @@
 PODS:
   - Alamofire (3.3.1)
+  - LinearProgressBar (1.0.0)
   - Moya (6.4.0):
     - Moya/Core (= 6.4.0)
   - Moya/Core (6.4.0):
@@ -17,9 +18,11 @@ PODS:
   - RxTests (2.4):
     - RxSwift (~> 2.4)
   - Spring (1.0.3)
+  - TKSwarmAlert (0.0.4)
 
 DEPENDENCIES:
   - Alamofire (~> 3.3)
+  - LinearProgressBar (from `https://github.com/PhilippeBoisney/LinearProgressBar.git`)
   - Moya
   - Moya/RxSwift
   - RxBlocking (~> 2.0)
@@ -27,19 +30,26 @@ DEPENDENCIES:
   - RxSwift (~> 2.0)
   - RxTests (~> 2.0)
   - Spring (from `https://github.com/MengTo/Spring.git`, branch `swift2`)
+  - TKSwarmAlert
 
 EXTERNAL SOURCES:
+  LinearProgressBar:
+    :git: https://github.com/PhilippeBoisney/LinearProgressBar.git
   Spring:
     :branch: swift2
     :git: https://github.com/MengTo/Spring.git
 
 CHECKOUT OPTIONS:
+  LinearProgressBar:
+    :commit: 11cda1df9ffbb07150424996c53ed15ddc72b87b
+    :git: https://github.com/PhilippeBoisney/LinearProgressBar.git
   Spring:
     :commit: 18d5c7b74489de8044e34767f856d1e574f0820e
     :git: https://github.com/MengTo/Spring.git
 
 SPEC CHECKSUMS:
   Alamofire: 369bc67b6f5ac33ded3648d7bd21c5bfb91c2ecc
+  LinearProgressBar: 11866ed667d95172ca5e966f816119c7a9d65833
   Moya: 4d526954c8afd79820991393d40d7d8af756ceee
   Result: 9e75e1111c774c6ac594e14907b15057053a7959
   RxBlocking: 1226c1fa0ca1e0ca5f964d4330ca3649f2128680
@@ -47,5 +57,6 @@ SPEC CHECKSUMS:
   RxSwift: 67b9ef4e8b34fb394e200e754c6a09cc16559f94
   RxTests: 8b9691e6476dfa6025fae9a69f449bf4cb5e5cfc
   Spring: 3f02b5dc3308572ef177b3cad0fa7bbc4b0706f7
+  TKSwarmAlert: 8fe22e7b9beec7e1e5d9506483e8f7c0272767eb
 
 COCOAPODS: 0.39.0

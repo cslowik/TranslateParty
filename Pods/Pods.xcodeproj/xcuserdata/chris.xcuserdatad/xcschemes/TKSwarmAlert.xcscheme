@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '4979E84882D6146BDAB27DC8'
-               BlueprintName = 'RxCocoa'
+               BlueprintIdentifier = 'D923B9854B4738A55C26147C'
+               BlueprintName = 'TKSwarmAlert'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'RxCocoa.framework'>
+               BuildableName = 'TKSwarmAlert.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
